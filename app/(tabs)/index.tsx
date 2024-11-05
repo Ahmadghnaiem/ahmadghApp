@@ -8,13 +8,16 @@ const index = () => {
       <View style={styles.box}>
         <View style={styles.top} >
           <View style={styles.red} />
-
+          
           <View style={styles.red2}>
             <Text style={styles.name}>ahmad gh</Text> 
             <Text style={styles.BD}>B.D-17.9.1987</Text>
           </View>
+           
 
         </View>
+        <Text style={styles.my}>my first ui</Text> 
+
       </View>
       {/* <View style={styles.box}></View> */}
     </View>
@@ -77,6 +80,13 @@ const styles = StyleSheet.create({
     fontSize: 15,
     borderWidth:1,
 
+  },
+  my:{
+    marginLeft:65,
+    marginTop:60,
+    fontSize: 40,
+    color:'green'
+    
   }
 
 })
