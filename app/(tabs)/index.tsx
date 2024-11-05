@@ -10,7 +10,7 @@ const index = () => {
           <View style={styles.red} />
 
           <View style={styles.red2}>
-            <Text style={styles.name}>ahmad gh</Text>
+            <Text style={styles.name}>ahmad gh</Text> 
             <Text style={styles.BD}>B.D-17.9.1987</Text>
           </View>
 
